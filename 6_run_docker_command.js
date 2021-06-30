@@ -12,3 +12,5 @@ docker.command('version', function (err, data) {
 docker.command('ps').then(function (data) {
   console.log('data = ', data);
 });
+
+// Simplay run this script without any argument
