@@ -18,3 +18,7 @@ if (argv.time) {
     }
 }
 
+// Pass argument  --time year month day
+//  --time year
+//  --time month
+//  --time day

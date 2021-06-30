@@ -4,6 +4,7 @@
   "description": "Create node-cli examples to understand how to write node script for command line",
   "main": "",
   "dependencies": {
+    "docker-cli-js": "^2.8.0",
     "yargs": "^17.0.1"
   },
   "devDependencies": {},

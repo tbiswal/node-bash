@@ -19,7 +19,6 @@ const argv = yargs
     .argv;
 
 
-console.log(argv);
 if (argv.time) {
     console.log('The current time is: ', new Date().toLocaleTimeString());
 }
@@ -32,4 +31,8 @@ if (argv._.includes('lyr')) {
         console.log(`${year} is NOT a Leap Year`);
     }
 }
+
+// Pass argument like: ./script.js lyr -y 2021
+// --time
+// --help
 
