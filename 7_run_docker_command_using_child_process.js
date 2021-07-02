@@ -7,7 +7,7 @@ exec('docker -v', (error, stdout, stderr) => {
     console.error(`exec error: ${error}`);
     return;
   }
-  console.log(`stdout: No. of directories = ${stdout}`);
+  console.log(`${stdout}`);
   if (stderr!= "")
   console.error(`stderr: ${stderr}`);
 });
